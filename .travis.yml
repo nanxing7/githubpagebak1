@@ -9,6 +9,7 @@ branches:
 script:
   - hexo generate # generate static files
   - npm install hexo-renderer-jade hexo-renderer-stylus
+  - npm audit fix
 deploy:
   provider: pages
   skip-cleanup: true
