@@ -8,7 +8,7 @@ subtitle:
 description: 一个记录自己学习、成长的地方！
 keywords: 
 author: 三岳
-language: zh-CN # 这个才是中文版本的 不再是 zh-Hans!
+language: zh-Hans # 这个才是中文版本的 不再是 zh-Hans!
 timezone: Asia/Shanghai
 
 # URL
