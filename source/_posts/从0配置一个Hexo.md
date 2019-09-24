@@ -6,6 +6,13 @@ tags: Hexo
 ## 从0配置一个Hexo
 
 
+### 用到的 git 相关命令
+```git
+git checkout -f hexo #创建并切换到 hexo 分支，hexo 分支存放 Hexo 源文件
+git add . #增加变化的文件进 git
+git commit -m '描述' #提交所有更改，并注释
+git push origin hexo #提交分支 hexo 到远程仓库
+```
 
 ### .travis.yml 配置代码
 ```yml
