@@ -53,7 +53,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -61,7 +61,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -158,8 +158,8 @@ baidu_push: false
 menu:
   home: / || home
   #about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
+  # tags: /tags/ || tags
+  # categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -410,7 +410,7 @@ mobile_layout_economy: false
 android_chrome_color: "#222"
 
 # Hide sticky headers and color the menu bar on Safari (iOS / macOS).
-safari_rainbow: false
+safari_rainbow: true
 
 # Optimize the display of scrollbars on webkit based browsers.
 custom_scrollbar: false
@@ -440,7 +440,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -448,7 +448,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -457,8 +457,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/sanyuedev
   title: Follow me on GitHub
 
 
@@ -747,7 +747,7 @@ google_analytics:
   localhost_ignored: true
 
 # CNZZ count
-cnzz_siteid:
+cnzz_siteid: 1278058038
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
@@ -811,7 +811,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
