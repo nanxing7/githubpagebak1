@@ -8,7 +8,10 @@ subtitle:
 description: 一个记录自己学习、成长的地方！
 keywords: 
 author: 三岳
-language: zh-CN # 这个才是中文版本的 不再是 zh-Hans!
+language: 
+- zh-CN # 这个才是中文版本的 不再是 zh-Hans!
+- en
+
 timezone: Asia/Shanghai
 
 # URL
@@ -73,7 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: melody
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
