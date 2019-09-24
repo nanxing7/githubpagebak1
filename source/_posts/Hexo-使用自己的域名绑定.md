@@ -13,7 +13,7 @@ tags: Hexo
 去你注册域名的域名注册商去解析你要绑定的域名。
 比如我要绑定 [sanyuedev.github.io](https://sanyuedev.github.io)。
 ![这里以阿里云域名解析为例子](https://raw.githubusercontent.com/sanyuedev/Picture_Bed_With_PicGO/master/20190924234512.png)
-这里记录类型我们选择 CNAME，主机记录选择 blog,其他的默认就好了
+这里记录类型我们选择 `CNAME`，主机记录选择 `blog`,其他的默认就好了
 点击确定就解析好了。
 ## Hexo 设置
 在 Hexo 的 `source` 文件夹下面新建一个文件名叫 `CNAME` 的文件，这个文件不能有后缀名。
