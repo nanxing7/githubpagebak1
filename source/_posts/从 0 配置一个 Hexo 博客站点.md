@@ -1,7 +1,8 @@
 ---
 title: 从 0 配置一个 Hexo 博客站点
 date: 2019-09-24 03:56:14
-tags: Hexo
+categories:
+- Hexo
 ---
 ## 从0配置一个Hexo
 

@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 三岳的博客
-subtitle: 
+title: 三岳のBlog
+subtitle: 怕什么真理无穷，进一寸有进一寸的欢喜。
 description: 一个记录自己学习、成长的地方！
 keywords: 
 author: 三岳
@@ -76,7 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: melody
 
 # Search-Plugs
 search:

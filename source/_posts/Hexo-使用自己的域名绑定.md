@@ -1,7 +1,9 @@
 ---
 title: Hexo 使用自己的域名绑定
 date: 2019-09-24 23:36:00
-tags: Hexo
+tags: 
+categories :
+- Hexo
 ---
 # 准备阶段
 ## 域名准备
