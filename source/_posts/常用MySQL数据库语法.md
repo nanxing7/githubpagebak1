@@ -7,6 +7,35 @@ categories:
 - MySQL
 ---
 
+连接数据库
+```sql
+mysql -u root -p
+```
+
+显示所有数据库
+```sql
+SHOW DATABASES;
+```
+
+显示数据库中所有表
+```sql
+SHOW TABLES;
+```
+
+选择数据库
+```sql
+USE 数据库名
+```
+
+```slq
+CREATE DATABASE <数据库名>
+DROP DATABASE <数据库名>
+```
+
+```sql
+
+```
+
 约束条件
 ```sql
 ALTER TABLE <表名> DROP FOREIGN KEY <外键约束名>
