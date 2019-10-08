@@ -24,7 +24,7 @@ SHOW TABLES;
 
 选择数据库
 ```sql
-USE 数据库名
+USE 数据库名；
 ```
 
 获取表结构
