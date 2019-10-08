@@ -7,11 +7,11 @@ branches:
   only:
     - hexo # build master branch only
 script:
-  - npm install hexo-generator-search --save # 安装本地搜索插件
+  - npm install
   - npm audit fix --force # 执行修复命令
-  - npm install hexo-renderer-jade hexo-renderer-stylus
-  - npm audit fix --force # 执行修复命令
+after_script:
   - hexo g # generate static files
+
 deploy:
   provider: pages
   skip-cleanup: true
