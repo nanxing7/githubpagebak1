@@ -9,7 +9,7 @@ branches:
 script:
   - npm install hexo-generator-search hexo-renderer-jade hexo-renderer-stylus --save # 安装本地搜索插件
   - npm audit fix -f # 执行修复命令
-  - hexo generate # generate static files
+  - hexo g # generate static files
 deploy:
   provider: pages
   skip-cleanup: true
