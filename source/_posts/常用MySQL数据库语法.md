@@ -12,6 +12,8 @@ categories:
 mysql -u root -p
 ```
 
+编辑
+
 显示所有数据库
 ```sql
 SHOW DATABASES;
