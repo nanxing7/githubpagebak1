@@ -12,7 +12,7 @@ categories:
 mysql -u root -p
 ```
 
-编辑
+编辑114sdhshd
 
 显示所有数据库
 ```sql
