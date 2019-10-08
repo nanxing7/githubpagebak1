@@ -1,13 +1,95 @@
-<!DOCTYPE html><html lang="[&quot;zh-CN&quot;,&quot;en&quot;,&quot;default&quot;]"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Hexo 使用自己的域名绑定"><meta name="keywords" content="Hexo"><meta name="author" content="三岳"><meta name="copyright" content="三岳"><title>Hexo 使用自己的域名绑定 | 三岳的博客</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: undefined,
-  copy: {
-    success: 'Copy successfully',
-    error: 'Copy error',
-    noSupport: 'The browser does not support'
-  }
-} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#准备阶段"><span class="toc-number">1.</span> <span class="toc-text">准备阶段</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#域名准备"><span class="toc-number">1.1.</span> <span class="toc-text">域名准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-博客准备"><span class="toc-number">1.2.</span> <span class="toc-text">Hexo 博客准备</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#开始阶段"><span class="toc-number">2.</span> <span class="toc-text">开始阶段</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#将域名绑定到你的-Github-Pages-上"><span class="toc-number">2.1.</span> <span class="toc-text">将域名绑定到你的 Github Pages 上</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-设置"><span class="toc-number">2.2.</span> <span class="toc-text">Hexo 设置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#部署阶段"><span class="toc-number">3.</span> <span class="toc-text">部署阶段</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">三岳</div><div class="author-info__description text-center">一个记录自己学习、成长的地方！</div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">7</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">2</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">三岳的博客</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">Hexo 使用自己的域名绑定</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-24</time></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h1><h2 id="域名准备"><a href="#域名准备" class="headerlink" title="域名准备"></a>域名准备</h2><p>首先你需要准备一个喜欢的域名，然后注册域名，至于怎么注册这里就不啰嗦了，百度一大把。</p>
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo 使用自己的域名绑定 | 三岳的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="准备阶段域名准备首先你需要准备一个喜欢的域名，然后注册域名，至于怎么注册这里就不啰嗦了，百度一大把。 Hexo 博客准备你需要配置好你的 Hexo 博客，可以看我的教程，也可以去网上找教程，这里就不复述了 开始阶段将域名绑定到你的 Github Pages 上去你注册域名的域名注册商去解析你要绑定的域名。比如我要绑定 sanyuedev.github.io。这里记录类型我们选择 CNAME，主机记">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 使用自己的域名绑定">
+<meta property="og:url" content="http://yoursite.com/2019/09/24/Hexo-使用自己的域名绑定/index.html">
+<meta property="og:site_name" content="三岳的博客">
+<meta property="og:description" content="准备阶段域名准备首先你需要准备一个喜欢的域名，然后注册域名，至于怎么注册这里就不啰嗦了，百度一大把。 Hexo 博客准备你需要配置好你的 Hexo 博客，可以看我的教程，也可以去网上找教程，这里就不复述了 开始阶段将域名绑定到你的 Github Pages 上去你注册域名的域名注册商去解析你要绑定的域名。比如我要绑定 sanyuedev.github.io。这里记录类型我们选择 CNAME，主机记">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/sanyuedev/Picture_Bed_With_PicGO/master/20190924234512.png">
+<meta property="og:updated_time" content="2019-09-24T16:03:20.318Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo 使用自己的域名绑定">
+<meta name="twitter:description" content="准备阶段域名准备首先你需要准备一个喜欢的域名，然后注册域名，至于怎么注册这里就不啰嗦了，百度一大把。 Hexo 博客准备你需要配置好你的 Hexo 博客，可以看我的教程，也可以去网上找教程，这里就不复述了 开始阶段将域名绑定到你的 Github Pages 上去你注册域名的域名注册商去解析你要绑定的域名。比如我要绑定 sanyuedev.github.io。这里记录类型我们选择 CNAME，主机记">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/sanyuedev/Picture_Bed_With_PicGO/master/20190924234512.png">
+  
+    <link rel="alternate" href="/atom.xml" title="三岳的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">三岳的博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Hexo-使用自己的域名绑定" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/24/Hexo-使用自己的域名绑定/" class="article-date">
+  <time datetime="2019-09-24T15:36:00.000Z" itemprop="datePublished">2019-09-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo 使用自己的域名绑定
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h1><h2 id="域名准备"><a href="#域名准备" class="headerlink" title="域名准备"></a>域名准备</h2><p>首先你需要准备一个喜欢的域名，然后注册域名，至于怎么注册这里就不啰嗦了，百度一大把。</p>
 <h2 id="Hexo-博客准备"><a href="#Hexo-博客准备" class="headerlink" title="Hexo 博客准备"></a>Hexo 博客准备</h2><p>你需要配置好你的 Hexo 博客，可以看我的教程，也可以去网上找教程，这里就不复述了</p>
 <h1 id="开始阶段"><a href="#开始阶段" class="headerlink" title="开始阶段"></a>开始阶段</h1><h2 id="将域名绑定到你的-Github-Pages-上"><a href="#将域名绑定到你的-Github-Pages-上" class="headerlink" title="将域名绑定到你的 Github Pages 上"></a>将域名绑定到你的 Github Pages 上</h2><p>去你注册域名的域名注册商去解析你要绑定的域名。<br>比如我要绑定 <a href="https://sanyuedev.github.io" target="_blank" rel="noopener">sanyuedev.github.io</a>。<br><img src="https://raw.githubusercontent.com/sanyuedev/Picture_Bed_With_PicGO/master/20190924234512.png" alt="这里以阿里云域名解析为例子"><br>这里记录类型我们选择 <code>CNAME</code>，主机记录选择 <code>blog</code>,其他的默认就好了<br>点击确定就解析好了。</p>
 <h2 id="Hexo-设置"><a href="#Hexo-设置" class="headerlink" title="Hexo 设置"></a>Hexo 设置</h2><p>在 Hexo 的 <code>source</code> 文件夹下面新建一个文件名叫 <code>CNAME</code> 的文件，这个文件不能有后缀名。<br>这里我使用的是Vim创建。</p>
@@ -22,7 +104,141 @@
 
 <p>我们现在输入我们设置的域名即可进入啦～</p>
 <p>文章写的不多，写的不好多多见谅哈～</p>
-</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">三岳</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://yoursite.com/2019/09/24/Hexo-使用自己的域名绑定/">http://yoursite.com/2019/09/24/Hexo-使用自己的域名绑定/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Hexo/">Hexo</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/09/25/数据库的基本概念/"><i class="fa fa-chevron-left">  </i><span>数据库的基本概念</span></a></div><div class="next-post pull-right"><a href="/2019/09/24/测试文章/"><span>测试文章</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2019 By 三岳</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  $('#nav').addClass('is-mobile')
-  $('footer').addClass('is-mobile')
-}</script></body></html>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/24/Hexo-使用自己的域名绑定/" data-id="ck1hab9g50001fx5lwf059ppb" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/09/25/数据库的基本概念/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          数据库的基本概念
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/09/24/测试文章/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">测试文章</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据库系统原理/">数据库系统原理</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/数据库系统原理/" style="font-size: 10px;">数据库系统原理</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/10/03/常用MySQL数据库语法/">常用MySQL数据库语法</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/25/数据库的基本概念/">数据库的基本概念</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/24/Hexo-使用自己的域名绑定/">Hexo 使用自己的域名绑定</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/24/测试文章/">测试文章</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/24/从 0 配置一个 Hexo 博客站点/">从 0 配置一个 Hexo 博客站点</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 三岳<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
