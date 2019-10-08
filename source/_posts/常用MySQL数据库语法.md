@@ -27,6 +27,13 @@ SHOW TABLES;
 USE 数据库名
 ```
 
+获取表结构
+```sql
+desc <表名>
+或者
+SHOW COLUMNS FROM <表名>;
+```
+
 ```slq
 CREATE DATABASE <数据库名>
 DROP DATABASE <数据库名>
